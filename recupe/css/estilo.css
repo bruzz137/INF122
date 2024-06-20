@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;s
+    margin: 0;
+    background-color: #d19e9e;
+}
+
+.nombre{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    background-color: gold;
+    display: flex;
+}
+
+.monolito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    border: 10px solid #3b3b3b;
+    background-color: #e5c4a1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.cabeza {
+    width: 150px;
+    height: 50px;
+    background-color: #d2b48c;
+    border: 10px solid #3b3b3b;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.rostro {
+    width: 140px;
+    height: 70px;
+    background-color: #e5c4a1;
+    border: 5px solid #3b3b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.ojo {
+    width: 25px;
+    height: 6px;
+    border: 3px solid #3b3b3b;
+    background-color:; 
+    position: absolute;
+}
+
+.ojo.izquierdo {
+    left: 30px;
+}
+
+.ojo.derecho {
+    right: 30px;
+}
+
+.nariz {
+    width: 10px;
+    height: 25px;
+    border: 3px solid #3b3b3b;
+    background-color: ;
+    position: absolute;
+    top: 20px;
+}
+
+.boca {
+    width: 30px;
+    height: 4px;
+    border: 3px solid #3b3b3b;
+    background-color: ;
+    position: absolute;
+    top: 50px;
+}
+
+.cuerpo {
+    width: 100px;
+    height: 200px;
+    position: relative;
+}
+
+.brazo {
+    width: 20px;
+    height: 100px;
+    background-color: #d2b48c;
+    border:9px solid #3b3b3b;
+    border-radius: 10px;
+    position: absolute;
+    top: 50px;
+}
+
+.brazo.izquierdo {
+    left: -24px;
+}
+
+.brazo.derecho {
+    right: -24px;
+}
+
+.piernas {
+    width: 100px;
+    height: 50px;
+    background-color: #d2b48c;
+    border-top: 4px solid #3b3b3b;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+}
+
+.piernas::before,
+.piernas::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #3b3b3b;
+    bottom: 0;
+}
+
+.piernas::before {
+    left: 25px;
+}
+
+.piernas::after {
+    right: 25px;
+}
+.pilar{
+   
+
+}
